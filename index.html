@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Address book</title>
+  <link rel="stylesheet" href="/src/style.css">
+  <script defer type="module" src="/src/main.ts"></script>
+  <script defer type="module" src="/src/switchView.ts"></script>
+</head>
+<body>
+  <div class="container-custom">
+    <h2>Address book</h2>
+    <div class="nav">
+      <p id="nav-list">LIST</p>
+      <p id="nav-add">ADD NEW</p>
+    </div>
+    <section id="form-section">
+      <h5>Add a new address</h5>
+      <form id="addressbook-form">
+        <div class="form-group d-flex">
+          <input name="new-name" class="form-control" type="text" maxlength="16" id="new-name" placeholder="Name..." required>
+          <input name="new-surname" class="form-control" type="text" maxlength="16" id="new-surname" placeholder="Surname..." required>
+          <input name="new-email" class="form-control" type="email" maxlength="46" id="new-email" placeholder="Email..." required>
+          <select name="new-country" id="new-country" class="form-control" placeholder="Country..." required></select>
+          <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+      </form>
+    </section>
+    <section id="list-section" class="hidden">
+      <h5>List of addresses</h5>
+      <ul id="address-book" class="list-group"></ul>
+    </section>
+  </div>
+</body>
+</html>

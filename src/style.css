@@ -1,0 +1,87 @@
+.container-custom {
+  padding: 0 2rem 1rem;
+}
+
+h2 {
+  margin: 1rem !important;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+label, input, select, option, button {
+  font-size: 0.8rem !important;
+}
+
+.d-flex {
+  justify-content: space-between !important;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center !important;
+}
+
+.nav p {
+  cursor: pointer;
+  padding: .3rem;
+  margin: 0 .8rem;
+  color: #0b6eff;
+}
+
+.nav p:hover {
+  color: rgb(200, 4, 235);
+  cursor: pointer;
+}
+
+.form-control, .btn {
+  width: calc(100% / 5 - 1rem) !important;
+  min-width: 116px !important;
+  padding: .2rem .375rem !important;
+  margin-right: 1rem;
+  margin-bottom: 0.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .form-control, .btn {
+    width: calc(100% / 2 - 1rem) !important;
+    min-width: 116px !important;
+  }
+
+  .form-group {
+    justify-content: space-around !important;
+  }
+
+  .list-group-item {
+    justify-content: space-evenly !important;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .form-control, .btn {
+    width: 100% !important;
+    min-width: 116px !important;
+  }
+}
+
+.btn-sm {
+  width: 20% !important;
+  margin-right: 0 !important;
+}
+
+.list-group-item {
+  padding: 8px !important;
+  justify-content: space-around;
+}
+
+.list-group-item input, .list-group-item label, .list-group-item select {
+  width: 20% !important;
+  min-width: 116px !important;
+}
