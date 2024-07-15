@@ -2,12 +2,12 @@
 
 Author: Festona
 
-Deployed to Vercel: [https://ss/](https://ss/)
+Deployed to Vercel: [https://addresses-book.vercel.app/](https://addresses-book.vercel.app/)
 
 ## Requirements
 
 - [Node](https://nodejs.org/en/)
-- [Yarn](https://classic.yarnpkg.com) / [npm](https://www.npmjs.com/)
+- [npm](https://www.npmjs.com/) / [Yarn](https://classic.yarnpkg.com)
 
 ## Getting Started
 
@@ -25,4 +25,4 @@ npm/yarn install
 npm/yarn start
 ```
 
-Open on web: http://localhost:5175 (or if other default/customized)
+Open on web: http://localhost:5173 (or if other default/customized)
